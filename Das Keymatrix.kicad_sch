@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid acc36760-ecf2-4bfb-a74b-64a2ca3ad899)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 81.28) (size 27.94 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b926c080-6ca9-40c9-8789-c9c9b79d063c)
+    (property "Sheetname" "Key Switches" (at 76.2 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "key_switches.kicad_sch" (at 76.2 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ROW[0..7]" output (at 104.14 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 16a06320-3a90-4676-b7f4-4f273bdc4e8f)
+    )
+    (pin "WAKE" output (at 104.14 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a9e0a029-dadf-4a9b-87e7-0e30a06681d8)
+    )
+    (pin "COL[0..12]" output (at 104.14 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 04c9efc6-a853-4d5e-bbfe-5b94923ea281)
+    )
+    (instances
+      (project "Das Keymatrix"
+        (path "/acc36760-ecf2-4bfb-a74b-64a2ca3ad899" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 123.19 81.28) (size 31.75 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cd7e8b80-ed13-4573-bdd6-f86ba479ea02)
+    (property "Sheetname" "Key LEDs" (at 123.19 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "key_leds.kicad_sch" (at 123.19 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Das Keymatrix"
+        (path "/acc36760-ecf2-4bfb-a74b-64a2ca3ad899" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
