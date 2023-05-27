@@ -47,6 +47,14 @@
     (property "Sheetfile" "key_leds.kicad_sch" (at 123.19 103.4546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "GND" input (at 154.94 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6fc8ab10-ac8e-4d61-97ee-7a1446b310a1)
+    )
+    (pin "V_LED" input (at 154.94 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 810e5d2b-bff2-4c6a-9b6c-e83c5a14028d)
+    )
     (instances
       (project "Das Keymatrix"
         (path "/acc36760-ecf2-4bfb-a74b-64a2ca3ad899" (page "3"))

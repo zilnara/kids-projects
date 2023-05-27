@@ -7,4 +7,13 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "V_LED" (shape input) (at 22.86 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 99b0309f-65c2-48b5-8ae3-bd3638d00578)
+  )
+  (hierarchical_label "GND" (shape input) (at 22.86 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a5352de8-4f8a-466a-8e43-30081d1b5a7f)
+  )
 )
